@@ -15,12 +15,25 @@ const age= 28;
 console.log(firstName +" a "+ age + " ans ");
 console.log(`${firstName} a ${age} ans`);
 
-// 3. Déclarez les variables job et isMarried, puis affectez la valeur "professeur" à job et false à isMarried. Ensuite, affichez la phrase "John est un professeur de 28 ans. Est-il marié ? false".
-let age = 28;
+// 3. Déclarez les variables job et isMarried, puis affectez la valeur "professeur" à job et false à isMarried.
+// Ensuite, affichez la phrase "John est un professeur de 28 ans. Est-il marié ? false".
+const job="professeur";
+const year=28;
+const isMarried=false;
+console.log(`${firstName} est un ${job} de ${year} ans`);
 // Variable mutation
 
-// 4. Affectez la valeur "vingt-huit" à la variable age et la valeur "conducteur" à la variable job. Ensuite, affichez la phrase précédente dans une boîte de dialogue.
+// 4. Affectez la valeur "vingt-huit" à la variable age et la valeur "conducteur"
+// à la variable job. Ensuite, affichez la phrase précédente dans une boîte de dialogue.
+let age1 = 28;
+const age2 = "vingt-huit";
+const job2 ="conducteur"
+console.log(age1)
+console.log(job2)
 
-const age = "vingt-huit";
+// 5. Affichez une boîte de dialogue demandant "Quel est son nom de famille ?"
+// pour permettre à l'utilisateur d'entrer le nom de famille de John. Stockez ce nom dans une variable lastName,
+// puis affichez "Le nom de famille de John est … (le nom
+const lastName = prompt("Quel est son nom de famille?")
 
-// 5. Affichez une boîte de dialogue demandant "Quel est son nom de famille ?" pour permettre à l'utilisateur d'entrer le nom de famille de John. Stockez ce nom dans une variable lastName, puis affichez "Le nom de famille de John est … (le nom
+console.log(`Le nom de famille de John est ${lastName}`)
