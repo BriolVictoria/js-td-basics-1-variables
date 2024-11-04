@@ -3,7 +3,8 @@
 // Solution classique utilisant une variable temporaire
 
 let a = 4;
-let b = 6;
+let b = 5;
+
 let c;
 
 c = a;
@@ -18,6 +19,10 @@ console.log(`b est égal a ${b}`)
 b = c;
 console.log('b=c')
 console.log(`b est égal a ${b}`)
+
+
+[a,b] = [b,a]
+
 
 
 // Solution alternative valable uniquement pour des nombres

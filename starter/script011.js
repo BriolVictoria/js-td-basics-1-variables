@@ -22,5 +22,12 @@ let x,y= 2;
 // Autres opérateurs
 // 4. Utilisez un opérateur de comparaison (comme >, <, ==, etc.) pour comparer les valeurs de deux variables et affichez le résultat.
 
-const calc3=;
-console.log(calc3)
+const ageP1=18;
+const ageP2="18";
+
+console.log(ageP1 > ageP2 || true);
+console.log(!(ageP1+ageP2 > ageP2)||);
+console.log(ageP1 < ageP2);
+console.log(ageP1 <= ageP2);
+console.log(ageP1 === ageP2);
+console.log(ageP1 !== ageP2);
